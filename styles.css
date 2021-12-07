@@ -1,0 +1,48 @@
+.main-block {
+  background-color: palegoldenrod;
+  height: 98vh;
+}
+
+.main-block .section-top {
+  border: 3px solid yellowgreen;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-block .section-top .search-bar {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+.main-block .section-top .search-bar .inputone {
+  width: 20%;
+  height: 2rem;
+  background-color: #b4cde6;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+}
+
+.main-block .section-top .search-bar button {
+  margin-left: 3rem;
+}
+
+.main-block .section-top .search-bar .btn1 {
+  height: 2rem;
+  width: 7%;
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+}
+
+.main-block .section-top .search-bar .btn2 {
+  height: 2rem;
+  width: 7%;
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+}
+
+.main-block .section-bottom {
+  border: 3px solid yellow;
+  height: 45rem;
+  margin-top: 0.5rem;
+}
+/*# sourceMappingURL=styles.css.map */

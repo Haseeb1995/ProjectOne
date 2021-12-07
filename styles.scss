@@ -1,0 +1,60 @@
+
+
+$btnHeight : 2rem;
+
+@mixin headerButtons {
+
+    height: $btnHeight;
+    width: 7%;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    
+}
+
+
+.main-block {
+    background-color:palegoldenrod;
+    height: 98vh;
+
+    .section-top {
+
+        border: 3px solid yellowgreen;
+        height: 5rem;
+        margin-bottom: 0.5rem;
+        
+        .search-bar {
+
+            margin-left: 2rem;
+            margin-top: 1.5rem;
+
+            .inputone {
+
+                width: 20%;
+                height: $btnHeight;
+                background-color: rgb(180, 205, 230);
+                font-family: 'Roboto', sans-serif;
+                font-size: large;
+            }
+
+            button {
+
+                margin-left: 3rem;
+            }
+            .btn1 {
+
+              @include headerButtons();
+            }
+            .btn2 {
+                
+             @include headerButtons();
+            
+            }
+        }
+    }
+    .section-bottom {
+
+        border: 3px solid yellow;
+        height: 45rem;
+        margin-top: 0.5rem;
+    }
+}
